@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: black;
+}
+
+ul li a {
+    /* Home */
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+
+/* birinchi section */
+
+.h1{
+    font-family: 'Inter';
+    font-size: 88px;
+    margin: 0 auto;
+    color: black;
+    width: 450px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    }
+
+
+/* ikkinchi section */
+
+.card-title {
+    font-family: 'Inter';
+    font-weight: 600;
+    font-size: 28px;
+    color: #000000;
+}
+
+.card-text {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 23px;
+    text-align: center;
+    color: #000000;
+    opacity: 0.6;
+}
+
+.card1 {
+    width: 370px;
+    text-align: center;
+}
+
+.card-img img{
+    width: 370px;
+}
+
+.ikkinchi-content{
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card-title{
+    margin: 10px;
+}
+
+
+/* uchinchi section */
+.uchinchi-content{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+}
+
+/* section besh */
+
+footer {
+    background-color: black;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
